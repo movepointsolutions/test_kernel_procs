@@ -1,0 +1,7 @@
+#ifndef TEST_KERNEL_PROCS
+#define TEST_KERNEL_PROCS
+
+#define DEVICE_NAME "test"
+#define MAJOR_NUM 100
+
+#endif // TEST_KERNEL_PROCS
