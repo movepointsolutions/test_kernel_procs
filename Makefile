@@ -2,6 +2,9 @@ include Kbuild
 
 all: test_kernel_procs.ko
 
+pack:
+	tar czf test_kernel_procs.tgz .gitignore Kbuild Makefile test_kernel_procs.c test_kernel_procs.h utils/CMakeLists.txt utils/test_kernel_procs.c
+
 mknod:
 	sudo mknod tkp c 100 0
 

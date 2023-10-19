@@ -17,4 +17,6 @@ utils/CMakeFiles/
 utils/Makefile
 utils/cmake_install.cmake
 utils/test_kernel_procs
+*.swp
+test_kernel_procs.tgz
 
